@@ -13,7 +13,7 @@ npm install --save-dev typescript
 npx tsc --init
 
 # Step 5: Configure tsconfig.json for development and production
-cat >> tsconfig.json <<EOF
+cat > tsconfig.json <<EOF
 {
   "compilerOptions": {
     "target": "es6",
