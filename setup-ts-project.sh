@@ -19,13 +19,11 @@ cat > tsconfig.json <<EOF
     "target": "es6",
     "module": "amd",
     "strict": true,
-    "outFile": "./dev/main.js",
     "outDir": "./dev",
     "rootDir": "./src",
     "sourceMap": true,
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "sourceRoot": "/src"
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
